@@ -179,3 +179,9 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+
+const html = document.getElementsByTagName('html')[0];
+const toggleTheme = (theme) => {
+    html.dataset.theme = theme;
+}
