@@ -157,25 +157,25 @@ anime.timeline({loop: true})
     scaleY: [0,1],
     opacity: [0.5,1],
     easing: "easeOutExpo",
-    duration: 700
+    duration: 1700
   })
   .add({
     targets: '.ml11 .line',
     translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
     easing: "easeOutExpo",
-    duration: 700,
-    delay: 100
+    duration: 1700,
+    delay: 1000
   }).add({
     targets: '.ml11 .letter',
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 600,
+    duration: 1600,
     offset: '-=775',
     delay: (el, i) => 34 * (i+1)
   }).add({
     targets: '.ml11',
     opacity: 0,
-    duration: 1000,
+    duration: 1600,
     easing: "easeOutExpo",
     delay: 1000
   });
